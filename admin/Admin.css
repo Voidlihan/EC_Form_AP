@@ -1,0 +1,57 @@
+.question-list-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.question-list-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.question-list-container::-webkit-scrollbar-thumb {
+    background-color: rgb(208, 43, 226);
+}
+
+.question-list {
+list-style-type: none;
+padding: 0;
+margin: 0 auto;
+max-width: 600px;
+}
+
+.header {
+    text-align: center;
+}
+
+.question-item {
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    margin-left: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(208, 43, 226);
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.copyButton {
+    display: block;
+    color: white;
+    background-color: rgb(208, 43, 226);
+    width: 35px;
+    height: 27px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+}
